@@ -1,0 +1,298 @@
+body {
+    font-family: sans-serif;
+}
+
+/* NAV BAR */
+
+.navigation-links-nav {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+.navigation-links-nav {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .navigation-links-text1 {
+    margin-left: 32px;
+  }
+  .navigation-links-text2 {
+    margin-left: 32px;
+  }
+  .navigation-links-text3 {
+    margin-left: 32px;
+  }
+  .navigation-links-text4 {
+    margin-left: 32px;
+  }
+  .navigation-links-text5 {
+    margin-left: 32px;
+  }
+  
+  
+  .home-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+  }
+  .home-header {
+    width: 100%;
+    display: flex;
+    max-width: 1400px;
+    min-width: 100%;
+    align-items: center;
+    padding-top: 32px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 32px;
+    justify-content: space-between;
+    background-color: #FFE36D;
+  }
+  .home-image {
+    height: 2rem;
+    padding: 10px;
+  }
+  .home-container1 {
+    flex: 0 0 auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: space-between;
+    flex-direction: column;
+  }
+ 
+  /* SLIDE 2 - image + giro del mondo */
+
+  .home-container2 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: center;
+    background-image: url(images/first.jpg);
+    background-position: center;
+  }
+
+  /* SLIDE 3 - giro del mondo + text */
+
+  .hero-hero {
+    width: 100%;
+    display: flex;
+    padding: 48px;
+    position: relative;
+    max-width: 1400px;
+    min-height: 80vh;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .hero-container {
+    display: flex;
+    margin-right: 48px;
+    padding-right: 48px;
+    flex-direction: column;
+  }
+  .hero-text {
+    font-size: 3rem;
+    max-width: 450px;
+  }
+  .hero-text04 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  .hero-text14 {
+    text-decoration: underline;
+  }
+  .hero-text15 {
+    text-decoration: underline;
+  }
+  .hero-image {
+    width: 518px;
+    height: 664px;
+    object-fit: cover;
+  }
+
+  /* SLIDE 4 */
+
+  .home-hero {
+    width: 100%;
+    display: flex;
+    padding: 32px;
+    max-width: 1400px;
+    min-height: 80vh;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .home-image1 {
+    width: 518px;
+    height: 664px;
+    object-fit: cover;
+  }
+
+  .home-container3 {
+    width: 683px;
+    display: flex;
+    margin-left: 32px;
+    flex-direction: column;
+  }
+  .home-text02 {
+    font-size: 3rem;
+  }
+  .home-text03 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding-right: 32px;
+  }
+  .home-social-bar {
+    width: 100%;
+    display: flex;
+    padding: 48px;
+    align-self: flex-end;
+    justify-content: center;
+  }
+  .home-image2 {
+    width: 100px;
+    object-fit: cover;
+  }
+  .home-image3 {
+    width: 100px;
+    object-fit: cover;
+  }
+  .home-image4 {
+    width: 100px;
+    object-fit: cover;
+  }
+  .home-image5 {
+    width: 100px;
+    object-fit: cover;
+  }
+  
+/* SLIDE 5 */
+
+.home-hero1 {
+    width: 100%;
+    display: flex;
+    padding: 48px;
+    max-width: 1400px;
+    min-height: 80vh;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .home-container4 {
+    display: flex;
+    margin-right: 48px;
+    padding-right: 48px;
+    flex-direction: column;
+  }
+  .home-text16 {
+    font-size: 3rem;
+    max-width: 450px;
+  }
+  .home-text17 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  .home-social-bar1 {
+    width: 100%;
+    display: flex;
+    padding: 48px;
+    justify-content: center;
+  }
+  .home-image06 {
+    width: 100px;
+    object-fit: cover;
+  }
+  .home-image07 {
+    width: 100px;
+    object-fit: cover;
+  }
+  .home-image08 {
+    width: 100px;
+    object-fit: cover;
+  }
+  .home-image09 {
+    width: 100px;
+    object-fit: cover;
+  }
+  .home-image10 {
+    width: 466px;
+    height: 737px;
+    object-fit: cover;
+}
+
+
+/* LAST SLIDE */
+
+.hero1-hero {
+    width: 100%;
+    display: flex;
+    padding: 48px;
+    position: relative;
+    max-width: 1400px;
+    min-height: 80vh;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .hero1-container {
+    display: flex;
+    margin-right: 48px;
+    padding-right: 48px;
+    flex-direction: column;
+  }
+  .hero1-text {
+    font-size: 3rem;
+    max-width: 450px;
+  }
+  .hero1-text06 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  .hero1-image {
+    width: 737px;
+    align-self: center;
+    object-fit: cover;
+  }
+
+  /* FOOTER */
+  .home-footer {
+    width: 100%;
+    display: flex;
+    max-width: 1400px;
+    min-width: 100%;
+    align-items: center;
+    padding-top: 32px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 32px;
+    justify-content: space-between;
+    background-color: #FFE36D;
+  }
+
+  .home-footer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .home-footer {
+    padding: 16px;
+    flex-direction: column;
+  }
+  .home-image11 {
+    margin-bottom: 16px;
+    height: 2rem;
+  }
+
